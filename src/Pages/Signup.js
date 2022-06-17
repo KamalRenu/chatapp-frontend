@@ -14,7 +14,7 @@ function Signup() {
   const [isLoading,setIsLoading] = useState(false)
   const history = useHistory();
 
-  const API_URL = "https://message-app-node.herokuapp.com/"
+  const API_URL = "http://localhost:3001/"
 
   const handleForm = async (e) => {
     e.preventDefault();

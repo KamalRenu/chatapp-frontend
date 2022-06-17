@@ -20,7 +20,7 @@ function Signin() {
         setFormValue({email: "person1@gmail.com", password: "123456"})
     }
 
-    const API_URL = "https://message-app-node.herokuapp.com/"
+    const API_URL = "http://localhost:3001/"
 
     const loginCall = async (userCredential, dispatch) => {
         dispatch({ type: "LOGIN_START" });

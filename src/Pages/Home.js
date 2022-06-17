@@ -36,7 +36,7 @@ function Home() {
   const scrollRef = useRef();
   const socket = useRef();
 
-  const API_URL = "https://message-app-node.herokuapp.com/"
+  const API_URL = "http://localhost:3001/"
 
   /* Making Messages Realtime */
 

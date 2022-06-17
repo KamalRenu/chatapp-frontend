@@ -9,7 +9,7 @@ function ProfilePage({ toggler, togglestate }) {
   const [username, setUsername] = useState(user.username)
   const [photo, setPhoto] = useState("")
 
-  const API_URL = "https://message-app-node.herokuapp.com/"
+  const API_URL = "http://localhost:3001/"
 
   const handleSubmit = async (e) => {
     e.preventDefault()

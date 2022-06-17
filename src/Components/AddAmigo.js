@@ -8,7 +8,7 @@ function AddAmigo({addchattoggler,addchattoggle}) {
     const [amigousername, setAmigoUsername] = useState()
     const { user } = useContext(AuthContext)
 
-    const API_URL = "https://message-app-node.herokuapp.com/"
+    const API_URL = "http://localhost:3001/"
 
     const handleSubmit = async (e) => {
         e.preventDefault()

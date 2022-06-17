@@ -9,7 +9,7 @@ function SidebarChat({ chatroomtile, currentUser }) {
     const [online, setOnline] = useState(false);
     const socket = useRef()
 
-    const API_URL = "https://message-app-node.herokuapp.com/"
+    const API_URL = "http://localhost:3001/"
 
     useEffect(() => {
         socket.current = io(API_URL);
